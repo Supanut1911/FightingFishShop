@@ -14,6 +14,13 @@
 		179E30A822817CAE0082D08C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 179E30A622817CAE0082D08C /* LaunchScreen.storyboard */; };
 		179E30B322817CAE0082D08C /* FightingFishShopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179E30B222817CAE0082D08C /* FightingFishShopTests.swift */; };
 		179E30BE22817CAE0082D08C /* FightingFishShopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179E30BD22817CAE0082D08C /* FightingFishShopUITests.swift */; };
+		179E30D222817CCE0082D08C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179E30D122817CCE0082D08C /* AppDelegate.swift */; };
+		179E30D422817CCE0082D08C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179E30D322817CCE0082D08C /* ViewController.swift */; };
+		179E30D722817CCE0082D08C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 179E30D522817CCE0082D08C /* Main.storyboard */; };
+		179E30D922817CCF0082D08C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 179E30D822817CCF0082D08C /* Assets.xcassets */; };
+		179E30DC22817CCF0082D08C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 179E30DA22817CCF0082D08C /* LaunchScreen.storyboard */; };
+		179E30E722817CCF0082D08C /* FightingFishAdminTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179E30E622817CCF0082D08C /* FightingFishAdminTests.swift */; };
+		179E30F222817CCF0082D08C /* FightingFishAdminUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179E30F122817CCF0082D08C /* FightingFishAdminUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +38,20 @@
 			remoteGlobalIDString = 179E309922817CAE0082D08C;
 			remoteInfo = FightingFishShop;
 		};
+		179E30E322817CCF0082D08C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 179E309222817CAE0082D08C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 179E30CE22817CCE0082D08C;
+			remoteInfo = FightingFishAdmin;
+		};
+		179E30EE22817CCF0082D08C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 179E309222817CAE0082D08C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 179E30CE22817CCE0082D08C;
+			remoteInfo = FightingFishAdmin;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +68,19 @@
 		179E30B922817CAE0082D08C /* FightingFishShopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FightingFishShopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		179E30BD22817CAE0082D08C /* FightingFishShopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FightingFishShopUITests.swift; sourceTree = "<group>"; };
 		179E30BF22817CAE0082D08C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		179E30CF22817CCE0082D08C /* FightingFishAdmin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FightingFishAdmin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		179E30D122817CCE0082D08C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		179E30D322817CCE0082D08C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		179E30D622817CCE0082D08C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		179E30D822817CCF0082D08C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		179E30DB22817CCF0082D08C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		179E30DD22817CCF0082D08C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		179E30E222817CCF0082D08C /* FightingFishAdminTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FightingFishAdminTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		179E30E622817CCF0082D08C /* FightingFishAdminTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FightingFishAdminTests.swift; sourceTree = "<group>"; };
+		179E30E822817CCF0082D08C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		179E30ED22817CCF0082D08C /* FightingFishAdminUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FightingFishAdminUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		179E30F122817CCF0082D08C /* FightingFishAdminUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FightingFishAdminUITests.swift; sourceTree = "<group>"; };
+		179E30F322817CCF0082D08C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,15 +105,40 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		179E30CC22817CCE0082D08C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		179E30DF22817CCF0082D08C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		179E30EA22817CCF0082D08C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		179E309122817CAE0082D08C = {
 			isa = PBXGroup;
 			children = (
+				179E30FD22817CD60082D08C /* Shared */,
 				179E309C22817CAE0082D08C /* FightingFishShop */,
 				179E30B122817CAE0082D08C /* FightingFishShopTests */,
 				179E30BC22817CAE0082D08C /* FightingFishShopUITests */,
+				179E30D022817CCE0082D08C /* FightingFishAdmin */,
+				179E30E522817CCF0082D08C /* FightingFishAdminTests */,
+				179E30F022817CCF0082D08C /* FightingFishAdminUITests */,
 				179E309B22817CAE0082D08C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +149,9 @@
 				179E309A22817CAE0082D08C /* FightingFishShop.app */,
 				179E30AE22817CAE0082D08C /* FightingFishShopTests.xctest */,
 				179E30B922817CAE0082D08C /* FightingFishShopUITests.xctest */,
+				179E30CF22817CCE0082D08C /* FightingFishAdmin.app */,
+				179E30E222817CCF0082D08C /* FightingFishAdminTests.xctest */,
+				179E30ED22817CCF0082D08C /* FightingFishAdminUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -100,7 +162,6 @@
 				179E309D22817CAE0082D08C /* AppDelegate.swift */,
 				179E309F22817CAE0082D08C /* ViewController.swift */,
 				179E30A122817CAE0082D08C /* Main.storyboard */,
-				179E30A422817CAE0082D08C /* Assets.xcassets */,
 				179E30A622817CAE0082D08C /* LaunchScreen.storyboard */,
 				179E30A922817CAE0082D08C /* Info.plist */,
 			);
@@ -123,6 +184,45 @@
 				179E30BF22817CAE0082D08C /* Info.plist */,
 			);
 			path = FightingFishShopUITests;
+			sourceTree = "<group>";
+		};
+		179E30D022817CCE0082D08C /* FightingFishAdmin */ = {
+			isa = PBXGroup;
+			children = (
+				179E30D122817CCE0082D08C /* AppDelegate.swift */,
+				179E30D322817CCE0082D08C /* ViewController.swift */,
+				179E30D522817CCE0082D08C /* Main.storyboard */,
+				179E30D822817CCF0082D08C /* Assets.xcassets */,
+				179E30DA22817CCF0082D08C /* LaunchScreen.storyboard */,
+				179E30DD22817CCF0082D08C /* Info.plist */,
+			);
+			path = FightingFishAdmin;
+			sourceTree = "<group>";
+		};
+		179E30E522817CCF0082D08C /* FightingFishAdminTests */ = {
+			isa = PBXGroup;
+			children = (
+				179E30E622817CCF0082D08C /* FightingFishAdminTests.swift */,
+				179E30E822817CCF0082D08C /* Info.plist */,
+			);
+			path = FightingFishAdminTests;
+			sourceTree = "<group>";
+		};
+		179E30F022817CCF0082D08C /* FightingFishAdminUITests */ = {
+			isa = PBXGroup;
+			children = (
+				179E30F122817CCF0082D08C /* FightingFishAdminUITests.swift */,
+				179E30F322817CCF0082D08C /* Info.plist */,
+			);
+			path = FightingFishAdminUITests;
+			sourceTree = "<group>";
+		};
+		179E30FD22817CD60082D08C /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				179E30A422817CAE0082D08C /* Assets.xcassets */,
+			);
+			path = Shared;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,6 +281,59 @@
 			productReference = 179E30B922817CAE0082D08C /* FightingFishShopUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		179E30CE22817CCE0082D08C /* FightingFishAdmin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 179E30F422817CCF0082D08C /* Build configuration list for PBXNativeTarget "FightingFishAdmin" */;
+			buildPhases = (
+				179E30CB22817CCE0082D08C /* Sources */,
+				179E30CC22817CCE0082D08C /* Frameworks */,
+				179E30CD22817CCE0082D08C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FightingFishAdmin;
+			productName = FightingFishAdmin;
+			productReference = 179E30CF22817CCE0082D08C /* FightingFishAdmin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		179E30E122817CCF0082D08C /* FightingFishAdminTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 179E30F722817CCF0082D08C /* Build configuration list for PBXNativeTarget "FightingFishAdminTests" */;
+			buildPhases = (
+				179E30DE22817CCF0082D08C /* Sources */,
+				179E30DF22817CCF0082D08C /* Frameworks */,
+				179E30E022817CCF0082D08C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				179E30E422817CCF0082D08C /* PBXTargetDependency */,
+			);
+			name = FightingFishAdminTests;
+			productName = FightingFishAdminTests;
+			productReference = 179E30E222817CCF0082D08C /* FightingFishAdminTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		179E30EC22817CCF0082D08C /* FightingFishAdminUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 179E30FA22817CCF0082D08C /* Build configuration list for PBXNativeTarget "FightingFishAdminUITests" */;
+			buildPhases = (
+				179E30E922817CCF0082D08C /* Sources */,
+				179E30EA22817CCF0082D08C /* Frameworks */,
+				179E30EB22817CCF0082D08C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				179E30EF22817CCF0082D08C /* PBXTargetDependency */,
+			);
+			name = FightingFishAdminUITests;
+			productName = FightingFishAdminUITests;
+			productReference = 179E30ED22817CCF0082D08C /* FightingFishAdminUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -202,6 +355,17 @@
 						CreatedOnToolsVersion = 10.2;
 						TestTargetID = 179E309922817CAE0082D08C;
 					};
+					179E30CE22817CCE0082D08C = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					179E30E122817CCF0082D08C = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 179E30CE22817CCE0082D08C;
+					};
+					179E30EC22817CCF0082D08C = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 179E30CE22817CCE0082D08C;
+					};
 				};
 			};
 			buildConfigurationList = 179E309522817CAE0082D08C /* Build configuration list for PBXProject "FightingFishShop" */;
@@ -220,6 +384,9 @@
 				179E309922817CAE0082D08C /* FightingFishShop */,
 				179E30AD22817CAE0082D08C /* FightingFishShopTests */,
 				179E30B822817CAE0082D08C /* FightingFishShopUITests */,
+				179E30CE22817CCE0082D08C /* FightingFishAdmin */,
+				179E30E122817CCF0082D08C /* FightingFishAdminTests */,
+				179E30EC22817CCF0082D08C /* FightingFishAdminUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -243,6 +410,30 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		179E30B722817CAE0082D08C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		179E30CD22817CCE0082D08C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				179E30DC22817CCF0082D08C /* LaunchScreen.storyboard in Resources */,
+				179E30D922817CCF0082D08C /* Assets.xcassets in Resources */,
+				179E30D722817CCE0082D08C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		179E30E022817CCF0082D08C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		179E30EB22817CCF0082D08C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -277,6 +468,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		179E30CB22817CCE0082D08C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				179E30D422817CCE0082D08C /* ViewController.swift in Sources */,
+				179E30D222817CCE0082D08C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		179E30DE22817CCF0082D08C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				179E30E722817CCF0082D08C /* FightingFishAdminTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		179E30E922817CCF0082D08C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				179E30F222817CCF0082D08C /* FightingFishAdminUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -289,6 +505,16 @@
 			isa = PBXTargetDependency;
 			target = 179E309922817CAE0082D08C /* FightingFishShop */;
 			targetProxy = 179E30BA22817CAE0082D08C /* PBXContainerItemProxy */;
+		};
+		179E30E422817CCF0082D08C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 179E30CE22817CCE0082D08C /* FightingFishAdmin */;
+			targetProxy = 179E30E322817CCF0082D08C /* PBXContainerItemProxy */;
+		};
+		179E30EF22817CCF0082D08C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 179E30CE22817CCE0082D08C /* FightingFishAdmin */;
+			targetProxy = 179E30EE22817CCF0082D08C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -305,6 +531,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				179E30A722817CAE0082D08C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		179E30D522817CCE0082D08C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				179E30D622817CCE0082D08C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		179E30DA22817CCF0082D08C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				179E30DB22817CCF0082D08C /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -546,6 +788,124 @@
 			};
 			name = Release;
 		};
+		179E30F522817CCF0082D08C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QD4KUK365R;
+				INFOPLIST_FILE = FightingFishAdmin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = supanut.inc.FightingFishAdmin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		179E30F622817CCF0082D08C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QD4KUK365R;
+				INFOPLIST_FILE = FightingFishAdmin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = supanut.inc.FightingFishAdmin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		179E30F822817CCF0082D08C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QD4KUK365R;
+				INFOPLIST_FILE = FightingFishAdminTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = supanut.inc.FightingFishAdminTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FightingFishAdmin.app/FightingFishAdmin";
+			};
+			name = Debug;
+		};
+		179E30F922817CCF0082D08C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QD4KUK365R;
+				INFOPLIST_FILE = FightingFishAdminTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = supanut.inc.FightingFishAdminTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FightingFishAdmin.app/FightingFishAdmin";
+			};
+			name = Release;
+		};
+		179E30FB22817CCF0082D08C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QD4KUK365R;
+				INFOPLIST_FILE = FightingFishAdminUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = supanut.inc.FightingFishAdminUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FightingFishAdmin;
+			};
+			name = Debug;
+		};
+		179E30FC22817CCF0082D08C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QD4KUK365R;
+				INFOPLIST_FILE = FightingFishAdminUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = supanut.inc.FightingFishAdminUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FightingFishAdmin;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -581,6 +941,33 @@
 			buildConfigurations = (
 				179E30C922817CAE0082D08C /* Debug */,
 				179E30CA22817CAE0082D08C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		179E30F422817CCF0082D08C /* Build configuration list for PBXNativeTarget "FightingFishAdmin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				179E30F522817CCF0082D08C /* Debug */,
+				179E30F622817CCF0082D08C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		179E30F722817CCF0082D08C /* Build configuration list for PBXNativeTarget "FightingFishAdminTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				179E30F822817CCF0082D08C /* Debug */,
+				179E30F922817CCF0082D08C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		179E30FA22817CCF0082D08C /* Build configuration list for PBXNativeTarget "FightingFishAdminUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				179E30FB22817CCF0082D08C /* Debug */,
+				179E30FC22817CCF0082D08C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
